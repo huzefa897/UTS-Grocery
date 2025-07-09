@@ -1,10 +1,9 @@
+// vite.config.ts
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
+// Use the repo name as base (important for GitHub Pages)
 export default defineConfig({
+  base: '/UTS-Grocery/',
   plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
 });

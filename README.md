@@ -1,39 +1,35 @@
-# UTS Grocery Store - Assignment Submission
+# 🛒 UTS Grocery App
 
-## 🛠️ How to Run the Project
+A simple grocery listing web application built with **React**, **TypeScript**, and **Vite**. Designed for performance, fast builds, and modern development with Supabase integration.
 
-1. Install all project dependencies:
-
-
-   npm install
-
-
-2. Start the development server:
-
-
-   npm run dev
-
-
-3. Open the app in your browser:
-
-
-   http://localhost:5173
-  
----
-
-## 🛒 Database Information
-
-- This project connects to a **live Supabase database**.
-- The **Supabase URL** and **Anon public key** are included in the project code.
-- No additional database setup is required.
-- Products will load automatically from the online database.
+> **Live Demo**: [https://huzefa897.github.io/UTS-Grocery](https://huzefa897.github.io/UTS-Grocery)
 
 ---
 
-## 📋 Important Notes
+## 🚀 Features
 
-- Ensure you have an active internet connection while running the project.
-- There is no need to create or import a database manually.
-- All data fetching is automatic.
+- ⚡ Lightning-fast build with Vite
+- 🧠 Built using React + TypeScript
+- 📦 State management with hooks
+- 🌐 Supabase for backend services
+- 🎨 Tailwind CSS for styling
+- 📱 Responsive design
 
 ---
+
+## 🛠 Tech Stack
+
+- **Frontend**: React, TypeScript, React Router
+- **Styling**: Tailwind CSS
+- **Backend**: Supabase
+- **Build Tool**: Vite
+- **Hosting**: GitHub Pages
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/huzefa897/UTS-Grocery.git
+cd UTS-Grocery
+npm install
